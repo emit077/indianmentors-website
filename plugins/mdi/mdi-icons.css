@@ -37,3 +37,20 @@
 .mdi-format-quote-open-outline::before {
   content: "\F11A7";
 }
+
+/* Social icons */
+.mdi-facebook::before {
+  content: "\F020C";
+}
+.mdi-instagram::before {
+  content: "\F02FE";
+}
+.mdi-linkedin::before {
+  content: "\F033B";
+}
+.mdi-youtube-play::before {
+  content: "\F05C3";
+}
+.mdi-twitter::before {
+  content: "\F0544";
+}
