@@ -1,57 +1,84 @@
-#about-welcome .video-circle {
-  height: 150px;
-  width: 150px;
-  background: blue;
-  /* border:  solid 5px blue; */
-  position: relative;
-  z-index: -1;
+:root {
+  --primary: 4, 35, 144;
+  --gray: 134, 134, 134;
+  --white: 255, 255, 255;
+  --card-surface: 45, 133, 239;
+}
+.ping {
+  background: transparent;
   border-radius: 50%;
+  border: 2px solid blue;
+  text-align: center;
+  animation: load 2s ease-out infinite;
 }
 
-@keyframes moveLR {
-    0% ,100% { left:250px; top:150px;}
-    50% {left:750px; top: 150px;}
+@keyframes load {
+  0% {
+    transform: scale(1);
+    opacity: 1;
   }
-#about-welcome .video-circle-bounce {
-  height: 30px;
-  width: 30px;
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+#circle {
+  height: 100%;
+  border-radius: 30px;
+  /* float: left; */
+  /* width: 350px; */
+  /* height: 350px; */
+  /* shape-outside: circle(); */
+  /* clip-path: circle(); */
+  /* background: lightblue; */
+  background-image: url(../../assets/images/about/thumbnail.png);
+  background-size: cover;
+}
+
+.dot {
   position: relative;
-  top: 100px;
-  left: 250px;
-  animation: moveLR 8s ease-in-out infinite;
+  width: fit-content;
+  background: white;
+  border-radius: 40px;
+  width: 3.75rem;
+  height: 3.75rem;
 }
 
+.heartbeat {
+  position: absolute;
+  width: fit-content;
+  background-color: transparent;
+  border: solid 1px rgb(var(--white));
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+  opacity: 0.75;
+  animation: load 2s ease-out infinite;
+}
+.heartbeat-2 {
+  position: absolute;
+  width: fit-content;
+  background-color: transparent;
+  border: solid 1px rgb(var(--white));
+  border-radius: 50%;
+  width: 4.75rem;
+  height: 4.75rem;
+  opacity: 0.75;
+  animation: load 2s ease-out infinite;
+}
+#over-values {
+  background: rgb(4, 34, 143, 1);
+  background: linear-gradient(
+    37deg,
+    rgba(8, 81, 192, 1) 0%,
+    rgba(4, 34, 143, 1) 46%
+  );
+}
 
-.loader {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    border: 2px solid #FF3D00;
-    box-sizing: border-box;
-    animation: rotation 8s linear infinite;
-  }
-  .loader::after {
-    content: '';  
-    box-sizing: border-box;
-    position: absolute;
-    left: 4px;
-    top: 4px;
-    border: 1px solid pink;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-  }
-      
-  @keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(-360deg);
-      }
-  } 
+#over-values .card {
+  background-color: rgba(var(--white),0.22);
+}
+
+#over-values .card .title{
+  font-size: 18px;
+}

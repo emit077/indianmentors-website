@@ -1,275 +1,219 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
-  <head>
-    <script src="../assets/js/color-modes.js"></script>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
-    <meta name="generator" content="Hugo 0.122.0" />
-    <title>IndianMentors | Home</title>
+<head>
+  <script src="../assets/js/color-modes.js"></script>
 
-    <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
-    <link href="../../assets/css/main.css" rel="stylesheet" />
-    <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../../assets/css/animation.css">
-  </head>
-  <body>
-    <!-- header -->
-    <section id="app-navbar" class="d-md-inline"></section>
-    <!-- Header End -->
-    <!-- hero section start -->
-    <section id="hero" class="app-padding">
-      <div class="row" style="height: 700px;">
-        <div class="col-md-6 col-sm-12 mt-auto mb-auto">
-          <h1 class="hero-title">
-            The personal <br /><span>touch</span> for your <br />
-            <span>Academic success</span>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+  <meta name="generator" content="Hugo 0.122.0" />
+  <title>IndianMentors | Home</title>
 
-            <!-- Home Tutoring <br />
+  <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+  <link href="../../assets/css/main.css" rel="stylesheet" />
+  <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/css/animation.css">
+</head>
+
+<body>
+  <!-- header -->
+  <include src="../../components/Navbar.html"></include>
+  <!-- Header End -->
+
+  <!-- hero section start -->
+  <section id="hero" class="app-padding">
+    <div class="row" style="height: 700px;">
+      <div class="col-md-6 col-sm-12 mt-auto mb-auto">
+        <h1 class="hero-title">
+          The personal <br /><span>touch</span> for your <br />
+          <span>Academic success</span>
+
+          <!-- Home Tutoring <br />
             and <span>e-Learning</span> Solutions -->
-          </h1>
-          <h4 class="my-5 fw-light">
-            Education excellence at your doorstep Personalised Home Tuition and
-            Online Learning Platform
-          </h4>
-          <a href="#" class="primary-action-btn" style="--padding: 14px 20px;">
-            Let's Begin
-          </a>
+        </h1>
+        <h4 class="my-5 fw-light">
+          Education excellence at your doorstep Personalised Home Tuition and
+          Online Learning Platform
+        </h4>
+        <a href="#" class="primary-action-btn" style="--padding: 14px 20px;">
+          Let's Begin
+        </a>
+      </div>
+      <div class="col-md-6 col-sm-12 img-wrapper">
+        <img src="../../assets/images/others/hero.png" alt="" width="100%" />
+      </div>
+    </div>
+  </section>
+  <!-- Hero section end -->
+
+  <!-- stats section start -->
+  <section id="feature-stats" class="app-padding pb-5">
+    <div class="stats-wrapper">
+      <div class="semi-circle-left circle-style"></div>
+      <div class="circle circle-style" style="left: 25px; bottom: 100px;"></div>
+
+      <div class="semi-circle-right circle-style"></div>
+      <div class="circle circle-style" style="right: 25px; top: 8px;"></div>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
+          <p class="count"><span class="counting">20000</span>+</p>
+          <p class="label">Students Enrolled</p>
         </div>
-        <div class="col-md-6 col-sm-12 img-wrapper">
-          <img src="../../assets/images/others/hero.png" alt="" width="100%" />
+        <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
+          <div class="seprator"></div>
+          <p class="count" id="tutor_counter">
+            <span class="counting">10000</span>+
+          </p>
+          <p class="label">Experiance Tutors</p>
+        </div>
+        <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
+          <div class="seprator"></div>
+          <p class="count" id="award_counter">
+            <span class="counting">50</span>+
+          </p>
+          <p class="label">Awards & Recognition</p>
         </div>
       </div>
-    </section>
-    <!-- Hero section end -->
+    </div>
+  </section>
+  <!-- stats section end -->
 
-    <!-- stats section start -->
-    <section id="feature-stats" class="app-padding pb-5">
-      <div class="stats-wrapper">
-        <div class="semi-circle-left circle-style"></div>
-        <div
-          class="circle circle-style"
-          style="left: 25px; bottom: 100px;"
-        ></div>
-
-        <div class="semi-circle-right circle-style"></div>
-        <div class="circle circle-style" style="right: 25px; top: 8px;"></div>
-
-        <div class="row justify-content-center">
-          <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
-            <p class="count"><span class="counting">20000</span>+</p>
-            <p class="label">Students Enrolled</p>
-          </div>
-          <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
-            <div class="seprator"></div>
-            <p class="count" id="tutor_counter">
-              <span class="counting">10000</span>+
-            </p>
-            <p class="label">Experiance Tutors</p>
-          </div>
-          <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
-            <div class="seprator"></div>
-            <p class="count" id="award_counter">
-              <span class="counting">50</span>+
-            </p>
-            <p class="label">Awards & Recognition</p>
-          </div>
-        </div>
+  <!-- service section start -->
+  <section id="feature-services" class="pb-5">
+    <div class="app-padding">
+      <div class="section-title text-center mb-5">
+        <span class="card-subtitle" style="--color: var(--gray);">Our Services</span>
+        <h2>What we do?</h2>
       </div>
-    </section>
-    <!-- stats section end -->
+      <div class="row" id="serviceCardContainer"></div>
+    </div>
+  </section>
+  <!-- service section end -->
 
-    <!-- service section start -->
-    <section id="feature-services" class="pb-5">
-      <div class="app-padding">
-        <div class="section-title text-center mb-5">
-          <span class="card-subtitle" style="--color: var(--gray);"
-            >Our Services</span
-          >
-          <h2>What we do?</h2>
-        </div>
-        <div class="row" id="serviceCardContainer"></div>
-      </div>
-    </section>
-    <!-- service section end -->
-
-    <!--how do we do start -->
-    <section
-      id="feature-steps"
-      class="py-5"
-      style="position: relative; top: -200px;"
-    >
-      <div style="height: 200px;"></div>
-      <div class="app-padding">
-        <div class="row justify-content-center">
-          <div class="col-sm-12 col-md-4">
-            <div class="section-title-veriant-2">
-              <span class="card-subtitle ms-2" style="--color: var(--white);"
-                >Steps to follow</span
-              >
-              <h2 style="--color: var(--white);">How do we do?</h2>
-            </div>
-            <img class="move-circle-grp" src="../../assets/images/others/circles-grp.svg" alt="" />
+  <!--how do we do start -->
+  <section id="feature-steps" class="py-5" style="position: relative; top: -200px;">
+    <div style="height: 200px;"></div>
+    <div class="app-padding">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-4">
+          <div class="section-title-veriant-2">
+            <span class="card-subtitle ms-2" style="--color: var(--white);">Steps to follow</span>
+            <h2 style="--color: var(--white);">How do we do?</h2>
           </div>
-          <div class="col-sm-12 col-md-8">
-            <div class="row justify-content-center" id="stepItemContainer">
-           
-            </div>
+          <img class="move-circle-grp" src="../../assets/images/others/circles-grp.svg" alt="" />
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <div class="row justify-content-center" id="stepItemContainer">
+
           </div>
         </div>
       </div>
-    </section>
-    <!-- how do we do end -->
+    </div>
+  </section>
+  <!-- how do we do end -->
 
-    <!--cources start -->
-    <section id="feature-programs" class="py-5">
-      <div class="app-padding">
-        <div class="section-title text-center mb-5">
-          <span class="card-subtitle" style="--color: var(--gray);"
-            >Programs</span
-          >
-          <h2>Courses we offer</h2>
-        </div>
-
-        <div
-          class="row justify-content-center"
-          id="programsCardContainer"
-        ></div>
+  <!--cources start -->
+  <section id="feature-programs" class="py-5">
+    <div class="app-padding">
+      <div class="section-title text-center mb-5">
+        <span class="card-subtitle" style="--color: var(--gray);">Programs</span>
+        <h2>Courses we offer</h2>
       </div>
-    </section>
-    <!-- how do we do end -->
 
-    <!--Testimonial start -->
-    <section id="feature-testimonial" class="py-5">
-      <div class="app-padding">
-        <div class="section-title text-center mb-5">
-          <span class="card-subtitle" style="--color: var(--gray);"
-            >Testimonials</span
-          >
-          <h2>What People Are Saying About Us?</h2>
-        </div>
-        <div
-          id="testimonialCarousel"
-          class="carousel carousel-dark slide"
-          data-bs-ride="true"
-        >
-          <button
-            class="carousel-control-prev --carasol-btn"
-            type="button"
-            data-bs-target="#testimonialCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next --carasol-btn"
-            type="button"
-            data-bs-target="#testimonialCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-          <div class="carousel-inner">
-            <div class="carousel-item active px-5" data-bs-interval="2000">
-              <div>
-                <img
-                  class="quote-icon"
-                  src="../../assets/icons/quotes.svg"
-                  alt=""
-                />
-                <div class="testimonial-cards">
-                  <div class="d-flex align-items-center">
-                    Protected branches are available in public repositories with
-                    GitHub Free and GitHub Free for organizations, and in public
-                    and private repositories with GitHub Pro, GitHub Team,
-                    GitHub Enterprise Cloud, and GitHub Enterprise Server. For
-                    more information, see "GitHub’s plans."
-                  </div>
-                </div>
-                <div class="text-center profile-wrapper">
-                  <img
-                    class="user-profile-img"
-                    src="../../assets/images/testimonia/profile.png"
-                    alt=""
-                  />
-                  <h5 class="mt-2">Your Name</h5>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item px-5" data-bs-interval="2000">
-              <img
-                class="quote-icon"
-                src="../../assets/icons/quotes.svg"
-                alt=""
-              />
+      <div class="row justify-content-center" id="programsCardContainer"></div>
+    </div>
+  </section>
+  <!-- how do we do end -->
+
+  <!--Testimonial start -->
+  <section id="feature-testimonial" class="py-5">
+    <div class="app-padding">
+      <div class="section-title text-center mb-5">
+        <span class="card-subtitle" style="--color: var(--gray);">Testimonials</span>
+        <h2>What People Are Saying About Us?</h2>
+      </div>
+      <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="true">
+        <button class="carousel-control-prev --carasol-btn" type="button" data-bs-target="#testimonialCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next --carasol-btn" type="button" data-bs-target="#testimonialCarousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active px-5" data-bs-interval="2000">
+            <div>
+              <img class="quote-icon" src="../../assets/icons/quotes.svg" alt="" />
               <div class="testimonial-cards">
                 <div class="d-flex align-items-center">
                   Protected branches are available in public repositories with
                   GitHub Free and GitHub Free for organizations, and in public
-                  and private repositories with GitHub Pro, GitHub Team, GitHub
-                  Enterprise Cloud, and GitHub Enterprise Server. For more
-                  information, see "GitHub’s plans."
+                  and private repositories with GitHub Pro, GitHub Team,
+                  GitHub Enterprise Cloud, and GitHub Enterprise Server. For
+                  more information, see "GitHub’s plans."
                 </div>
               </div>
               <div class="text-center profile-wrapper">
-                <img
-                  class="user-profile-img"
-                  src="../../assets/images/testimonia/profile.png"
-                  alt=""
-                />
-                <h5 class="mt-2">Your Name</h5>
-              </div>
-            </div>
-            <div class="carousel-item px-5" data-bs-interval="2000">
-              <img
-                class="quote-icon"
-                src="../../assets/icons/quotes.svg"
-                alt=""
-              />
-              <div class="testimonial-cards">
-                <div class="d-flex align-items-center">
-                  Protected branches are available in public repositories with
-                  GitHub Free and GitHub Free for organizations, and in public
-                  and private repositories with GitHub Pro, GitHub Team, GitHub
-                  Enterprise Cloud, and GitHub Enterprise Server. For more
-                  information, see "GitHub’s plans."
-                </div>
-              </div>
-              <div class="text-center profile-wrapper">
-                <img
-                  class="user-profile-img"
-                  src="../../assets/images/testimonia/profile.png"
-                  alt=""
-                />
+                <img class="user-profile-img" src="../../assets/images/testimonia/profile.png" alt="" />
                 <h5 class="mt-2">Your Name</h5>
               </div>
             </div>
           </div>
+          <div class="carousel-item px-5" data-bs-interval="2000">
+            <img class="quote-icon" src="../../assets/icons/quotes.svg" alt="" />
+            <div class="testimonial-cards">
+              <div class="d-flex align-items-center">
+                Protected branches are available in public repositories with
+                GitHub Free and GitHub Free for organizations, and in public
+                and private repositories with GitHub Pro, GitHub Team, GitHub
+                Enterprise Cloud, and GitHub Enterprise Server. For more
+                information, see "GitHub’s plans."
+              </div>
+            </div>
+            <div class="text-center profile-wrapper">
+              <img class="user-profile-img" src="../../assets/images/testimonia/profile.png" alt="" />
+              <h5 class="mt-2">Your Name</h5>
+            </div>
+          </div>
+          <div class="carousel-item px-5" data-bs-interval="2000">
+            <img class="quote-icon" src="../../assets/icons/quotes.svg" alt="" />
+            <div class="testimonial-cards">
+              <div class="d-flex align-items-center">
+                Protected branches are available in public repositories with
+                GitHub Free and GitHub Free for organizations, and in public
+                and private repositories with GitHub Pro, GitHub Team, GitHub
+                Enterprise Cloud, and GitHub Enterprise Server. For more
+                information, see "GitHub’s plans."
+              </div>
+            </div>
+            <div class="text-center profile-wrapper">
+              <img class="user-profile-img" src="../../assets/images/testimonia/profile.png" alt="" />
+              <h5 class="mt-2">Your Name</h5>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Testimonial end -->
+    </div>
+  </section>
+  <!-- Testimonial end -->
 
-    <!-- footer start -->
-    <section id="app-footer" class="pt-5"></section>
-    <!-- Footer end -->
+  <!-- footer start -->
+  <include src="../../components/Footer.html"></include>
+  <!-- Footer end -->
 
-    <!-- external JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="../../assets/js/base.js"></script>
-    <script src="../../assets/js/home.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
-    <script src="../../plugins/bootstrap/bootstrap.js"></script>
-  </body>
+  <!-- external JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="../../assets/js/base.js"></script>
+  <script src="../../assets/js/home.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+  <script src="../../plugins/bootstrap/bootstrap.js"></script>
+</body>
+
 </html>

@@ -1,38 +1,126 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
-  <head>
-    <script src="../assets/js/color-modes.js"></script>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta
-      name="author"
-      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
-    />
-    <meta name="generator" content="Hugo 0.122.0" />
-    <title>IndianMentors | Home</title>
+<head>
+  <script src="../assets/js/color-modes.js"></script>
 
-    <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
-    <link href="../../assets/css/main.css" rel="stylesheet" />
-    <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- header -->
-    <section id="app-navbar" class="d-inline"></section>
-    <!-- Header End -->
-    <h1>About Us</h1>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+  <meta name="generator" content="Hugo 0.122.0" />
+  <title>IndianMentors | Home</title>
 
-    <!-- footer start -->
-    <section id="app-footer" class="pt-5"></section>
-    <!-- Footer end -->
+  <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+  <link href="../../assets/css/main.css" rel="stylesheet" />
+  <link href="../../assets/css/about.css" rel="stylesheet" />
+  <link href="../../assets/css/animation.css" rel="stylesheet" />
+  <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
+  <style>
+    #google-maps-canvas img {
+      max-height: none;
+      max-width: none !important;
+      background: none !important;
+    }
+  </style>
+</head>
 
-    <!-- external JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="../../assets/js/base.js"></script>
-  </body>
+<body>
+  <!-- header -->
+  <include src="../../components/Navbar.html"></include>
+  <!-- Header End -->
+
+  <!-- bredcrumd -->
+  <nav aria-label="breadcrumb" class="app-padding">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">Home</li>
+      <li class="breadcrumb-item text-primary h5" aria-current="page">
+        About Us
+      </li>
+    </ol>
+  </nav>
+  <!-- bredcrumb end -->
+
+  <!-- our map -->
+  <div class="app-padding py-5" id="over-values">
+    <section>
+      <div class="row mt-5 pb-3">
+        <div class="col-sm-6 col-md-6 text-md-start text-sm-start text-white">
+          <h5 class="font-roboto-slab"> Where to find Us :</h5>
+          <p>32A, Near Avantibai Chowk, Beside Dubey Dairy, Junwani Road Kohka, Bhilai 490023, Chhattisgarh India.</p>
+        </div>
+        <div class="col-sm-6 col-md-6 text-md-end  text-sm-start text-white">
+          <p> hello@indianmentors.in</p>
+          <p> +91 7415363564</p>
+          <p> +91 7415363564</p>
+        </div>
+      </div>
+      <div>
+        <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:400px;">
+          <div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
+              style="height:100%;width:100%;border:0;" frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?q=INDIAN+MENTORS,+Junwani+Road,+beside+Dubey+Dairy,+Kohka,+Bhilai,+Chhattisgarh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+          </div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="authmaps-data">premium
+            bootstrap themes</a>
+
+        </div>
+      </div>
+    </section>
+    <!-- address -->
+    <section class="my-5">
+      <div class="section-title-veriant-2 mt-5">
+        <span class="card-subtitle ms-2" style="--color: var(--white);">Other Locations</span>
+        <h2 style="--color: var(--white);">We are also present here</h2>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+          <div class="card p-4 rounded-4">
+            <p class="fw-bold text-white title font-roboto-slab">Bhilai</p>
+            <p class="text-center text-white text-whit mt-4">
+              32A, Near Avantibai Chowk, Beside Dubey Dairy, Junwani Road Kohka, Bhilai 490023, Chhattisgarh India. <br>
+              <br>
+              hello@indianmentors.in  <br> +91 7415363564
+              <br> +91 7415263564
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center px-4  mb-4">
+          <div class="card p-4 rounded-4">
+            <p class="fw-bold text-white title font-roboto-slab">Bhilai</p>
+            <p class="text-center text-white text-whit mt-4">
+              32A, Near Avantibai Chowk, Beside Dubey Dairy, Junwani Road Kohka, Bhilai 490023, Chhattisgarh India.<br>
+              <br>
+              hello@indianmentors.in  <br> +91 7415363564
+              <br> +91 7415263564
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center px-4  mb-4">
+          <div class="card p-4 rounded-4">
+            <p class="fw-bold text-white title font-roboto-slab">Bhilai</p>
+            <p class="text-center text-white text-whit mt-4">
+              32A, Near Avantibai Chowk, Beside Dubey Dairy, Junwani Road Kohka, Bhilai 490023, Chhattisgarh India. <br>
+              <br>
+              hello@indianmentors.in  <br> +91 7415363564
+              <br> +91 7415263564
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- end map -->
+
+  <!-- footer start -->
+  <include src="../../components/Footer.html"></include>
+  <!-- Footer end -->
+
+  <!-- external JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="../../assets/js/base.js"></script>
+</body>
+
 </html>
