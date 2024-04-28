@@ -13,6 +13,7 @@
 
   <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
   <link href="../../assets/css/main.css" rel="stylesheet" />
+  <link href="../../assets/css/main-mobile.css" rel="stylesheet" />
   <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
   <link rel="stylesheet" href="../../assets/css/animation.css">
 </head>
@@ -23,9 +24,9 @@
   <!-- Header End -->
 
   <!-- hero section start -->
-  <section id="hero" class="app-padding">
-    <div class="row" style="height: 700px;">
-      <div class="col-md-6 col-sm-12 mt-auto mb-auto">
+  <section id="hero" class="app-padding pb-5 pb-md-0">
+    <div class="row" >
+      <div class="col-md-6 col-sm-12 mt-auto mb-auto order-last">
         <h1 class="hero-title">
           The personal <br /><span>touch</span> for your <br />
           <span>Academic success</span>
@@ -41,7 +42,7 @@
           Let's Begin
         </a>
       </div>
-      <div class="col-md-6 col-sm-12 img-wrapper">
+      <div class="col-md-6 col-sm-12 img-wrapper order-first">
         <img src="../../assets/images/others/hero.png" alt="" width="100%" />
       </div>
     </div>
@@ -49,36 +50,7 @@
   <!-- Hero section end -->
 
   <!-- stats section start -->
-  <section id="feature-stats" class="app-padding pb-5">
-    <div class="stats-wrapper">
-      <div class="semi-circle-left circle-style"></div>
-      <div class="circle circle-style" style="left: 25px; bottom: 100px;"></div>
-
-      <div class="semi-circle-right circle-style"></div>
-      <div class="circle circle-style" style="right: 25px; top: 8px;"></div>
-
-      <div class="row justify-content-center">
-        <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
-          <p class="count"><span class="counting">20000</span>+</p>
-          <p class="label">Students Enrolled</p>
-        </div>
-        <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
-          <div class="seprator"></div>
-          <p class="count" id="tutor_counter">
-            <span class="counting">10000</span>+
-          </p>
-          <p class="label">Experiance Tutors</p>
-        </div>
-        <div class="col-sm-6 col-md-4 mt-auto mb-auto text-center">
-          <div class="seprator"></div>
-          <p class="count" id="award_counter">
-            <span class="counting">50</span>+
-          </p>
-          <p class="label">Awards & Recognition</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <include src="../../components/home/stats.html"></include>
   <!-- stats section end -->
 
   <!-- service section start -->
@@ -136,18 +108,18 @@
         <h2>What People Are Saying About Us?</h2>
       </div>
       <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="true">
-        <button class="carousel-control-prev --carasol-btn" type="button" data-bs-target="#testimonialCarousel"
-          data-bs-slide="prev">
+        <button class="carousel-control-prev --carasol-btn d-none d-md-block" type="button"
+          data-bs-target="#testimonialCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next --carasol-btn" type="button" data-bs-target="#testimonialCarousel"
-          data-bs-slide="next">
+        <button class="carousel-control-next --carasol-btn d-none d-md-block" type="button"
+          data-bs-target="#testimonialCarousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
         <div class="carousel-inner">
-          <div class="carousel-item active px-5" data-bs-interval="2000">
+          <div class="carousel-item active px-md-5 px-0" data-bs-interval="2000">
             <div>
               <img class="quote-icon" src="../../assets/icons/quotes.svg" alt="" />
               <div class="testimonial-cards">

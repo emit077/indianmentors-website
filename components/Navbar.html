@@ -49,7 +49,7 @@
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active-nav-link px-0 me-5" href="../home/">Home</a>
+                        <a  class="nav-link px-0 me-5" href="../home/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-0 me-5" href="../about/">About Us</a>
@@ -57,12 +57,12 @@
                     <li class="nav-item">
                         <a class="nav-link px-0 me-5" href="../contact/">Contact Us</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link px-0 me-5" href="../career/">Career</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link px-0 me-5" href="../faq/">FAQs</a>
-                    </li>
+                    </li> -->
                 </ul>
                 <v-btn class="primary-action-btn" style="--padding: 10px 20px;">
                     Login
@@ -70,4 +70,45 @@
             </div>
         </header>
     </div>
+    <header id="app-header" class="sticky-top app-padding bg-primary p-1 pe-2 text-end  d-md-none">
+        <img src="../../assets/images/logo/Indianmentors-logo-blue.png" alt="" width="200px"
+            class="float-start mt-2 ms-2" />
+        <a class="text-decoration-none" data-bs-toggle="modal" href="#mobileMenuModel" role="button">
+            <span class="mdi mdi-menu text-white" style="font-size: 35px;"></span>
+        </a>
+    </header>
+    <div class="modal " id="mobileMenuModel" aria-hidden="true" aria-labelledby="mobileMenuModelLabel" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-top mt-0">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" style="color: white !important" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-style-none">
+                        <li class="nav-item mb-4">
+                            <a  class="nav-link  px-0 me-5" href="../home/">Home</a>
+                        </li>
+                        <li class="nav-item mb-4">
+                            <a class="nav-link px-0 me-5" href="../about/">About Us</a>
+                        </li>
+                        <li  class="nav-item mb-4">
+                            <a class="nav-link px-0 me-5" href="../contact/">Contact Us</a>
+                        </li>
+                        <!-- <li class="nav-item mb-4 ">
+                            <a class="nav-link px-0 me-5" href="../career/">Career</a>
+                        </li>
+                        <li class="nav-item mb-4">
+                            <a class="nav-link px-0 me-5" href="../faq/">FAQs</a>
+                        </li> -->
+                    </ul>
+                    <v-btn class="primary-action-btn ms-4" style="--padding: 10px 20px;">
+                        Login
+                    </v-btn>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+<script>
+</script>

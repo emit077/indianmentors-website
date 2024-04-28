@@ -13,4 +13,19 @@ $(document).ready(function () {
       .then((response) => response.text())
       .then((text) => callback(text));
   }
+
+  setTimeout(function () {
+    let urlArray = window.location.href.split("/");
+    let tab_id = urlArray[urlArray.length - 2];
+    console.log(tab_id);
+    // let currentab = document.getElementsByClassName("nav-link");
+    let currentab = document.getElementsByClassName("nav-link");
+    for (var i = 0; i < currentab.length; i++) {
+      console.log("currentab[i].text.toLowerCase().includes(currentab=",currentab[i].text.toLowerCase().includes(currentab))  ;
+      if (currentab[i].text.toLowerCase().includes(tab_id)){
+        currentab[i].classList.add("active-nav-link");
+      }
+      else currentab[i].classList.remove("active-nav-link");
+    }
+  }, 150);
 });

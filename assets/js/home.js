@@ -161,7 +161,7 @@ $(document).ready(function () {
   step_List = [
     {
       step_no: 1,
-      step_color:"#0dccc2",
+      step_color: "#0dccc2",
       title: "Initial Consultation & Matching Process",
       subtitle: `Begins with an initial consultation between the company
       and the student or their parents to gather information
@@ -173,7 +173,7 @@ $(document).ready(function () {
     },
     {
       step_no: 2,
-      step_color:"#CB60FF",
+      step_color: "#CB60FF",
       title: "Introduction and Scheduling",
       subtitle: `Once a suitable tutor is selected, the home tuition
       company introduces the tutor to the student or their
@@ -182,15 +182,16 @@ $(document).ready(function () {
     },
     {
       step_no: 3,
-      step_color:"#F34B7E",
+      step_color: "#F34B7E",
       title: " Feedback and Adjustments",
       subtitle: `Based on the feedback received from the student, parents, and tutor, the home tuition company may make adjustments to the tutoring plan as needed.`,
     },
     {
       step_no: 4,
-      step_color:"#FCB01D",
+      step_color: "#FCB01D",
       title: "Evaluation of Class",
-      subtitle: "Assessment of class through attendance and real-time location tracking.",
+      subtitle:
+        "Assessment of class through attendance and real-time location tracking.",
     },
   ];
 
@@ -209,4 +210,5 @@ $(document).ready(function () {
     </div>`
     );
   });
+
 });

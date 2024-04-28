@@ -44,6 +44,13 @@ p {
 .app-padding {
   padding: 0 7%;
 }
+.list-style-none {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.list-style-none a :hover {
+  text-decoration: underline;
+}
 
 .primary-action-btn {
   border-radius: 8px !important;
@@ -349,5 +356,3 @@ p {
   color: lightblue;
   opacity: 0.8;
 }
-
-

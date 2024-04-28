@@ -54,3 +54,7 @@
 .mdi-twitter::before {
   content: "\F0544";
 }
+
+.mdi-menu::before {
+  content: "\F035C";
+}
