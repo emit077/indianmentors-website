@@ -197,7 +197,7 @@ $(document).ready(function () {
 
   step_List.forEach((step) => {
     $("#stepItemContainer").append(
-      `<div class="col-sm-12 col-md-6 p-5">
+      `<div class="col-sm-12 col-md-6  p-md-5 py-4">
       <div class="card h-100 px-3">
         <div  style="--bg-color: ${step.step_color}"  class="step-circle text-center font-roboto-slab pt-1">
           ${step.step_no}
