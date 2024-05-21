@@ -100,6 +100,7 @@ $(document).ready(function () {
   program_list.forEach((program) => {
     $("#programsCardContainer").append(
       `<div class="col-sm-12 col-md-3 p-3">
+      <a href="https://app.indianmentors.in/student/registration" target="_blank" style="text-decoration:none">
         <div class="card border-1 h-100 rounded-5 shadow">
           <img src="${program.img_url}" alt="" class="rounded-top-5">
           <div class="card-body text-center pt-3 text-white bg-primary justify-content-center rounded-bottom-5 d-flex" style="align-items: center !important;" >
@@ -114,6 +115,7 @@ $(document).ready(function () {
             </a> -->
           </div>
         </div>
+        </a>
       </div>`
     );
   });
@@ -162,36 +164,27 @@ $(document).ready(function () {
     {
       step_no: 1,
       step_color: "#0dccc2",
-      title: "Initial Consultation & Matching Process",
-      subtitle: `Begins with an initial consultation between the company
-      and the student or their parents to gather information
-      about their academic needs, goals, schedule, and preferred
-      learning style. After that based on the information
-      gathered during the consultation, the company matches the
-      student with a suitable tutor from their pool of qualified
-      educators.`,
+      title: "Meeting",
+      subtitle: `We require precise details regarding the student's needs. You can either visit our office, or our admission counsellor can arrange a meeting with you, either online or in person, to provide counselling for the student. We will gather all necessary information, including class, subjects, timing, preferred tutor, location, city, demo details, and any specific concerns.`,
     },
     {
       step_no: 2,
       step_color: "#CB60FF",
-      title: "Introduction and Scheduling",
-      subtitle: `Once a suitable tutor is selected, the home tuition
-      company introduces the tutor to the student or their
-      parents. They discuss the tutoring plan, including the
-      frequency and duration of sessions and fees.`,
+      title: "Registration",
+      subtitle: `After communicating your requirements, the next step is to complete the student registration process by filling out the registration form and submitting the one-time registration fee of Rs. 1000. This fee is non-refundable and non-adjustable, and it grants lifetime access to our services. You can complete this process on our website following the provided instructions.`,
     },
     {
       step_no: 3,
       step_color: "#F34B7E",
-      title: " Feedback and Adjustments",
-      subtitle: `Based on the feedback received from the student, parents, and tutor, the home tuition company may make adjustments to the tutoring plan as needed.`,
+      title: "Demo Classes",
+      subtitle: `The tutor will conduct a demo session, either online or in person for one and a half hours. Following the demo session, you will need to confirm whether the tutor is suitable for the student's needs. If the tutor is a good fit, that's wonderful. If not, we will arrange for another tutor promptly.`,
     },
     {
       step_no: 4,
       step_color: "#FCB01D",
-      title: "Evaluation of Class",
+      title: "Fee Structure",
       subtitle:
-        "Assessment of class through attendance and real-time location tracking.",
+        "We offer various plans and packages to cater different needs. Once you have selected your tutor, you can choose from our basic, standard, or premium plans and select the number of days per week according to your requirements. You can then begin your classes on a regular basis and access all our services after making an advance fee payment.",
     },
   ];
 
@@ -211,4 +204,73 @@ $(document).ready(function () {
     );
   });
 
+  // testimonial
+
+  testimonial_List = [
+    {
+      name: "Amitesh Singh",
+      text: "I will suggest every parent to not burden their children at the end of the session for exams. Take classes from them from the very beginning. Their service is up to the mark and we are satisfied with their tutors and their service.",
+      img_url: "",
+    },
+    {
+      name: "Abhishek Toppo",
+      name: "Indian mentors tutors are experienced and friendly. Their way of teaching is very good. I would really suggest others to take classes from Indian Mentors.",
+      img_url: "",
+    },
+    {
+      name: "Bhagya Laxmi",
+      text: "I even can't express my happiness after seeing my daughter's results I almost lost hope in her studies but after I appointed Indian Mentors I saw changes in her academic results which made me believe in her results again now I can highly recommend this institute Thank you Indian Mentors",
+      img_url: "",
+    },
+    {
+      name: "Anushka Swaroop",
+      text: "Indian Mentors is a good institute we provide the best and most qualified tutors for mentoring the performance of the students it's among the best institutes of Chattisgarh.",
+      img_url: "",
+    },
+    {
+      name: "Harsh Soni",
+      text: "Can't express my experience in words. Just wanna say that this place is Awesome. It's been more than one year and I'm still convinced with the amount of dedication and descipline they have.",
+      img_url: "",
+    },
+    {
+      name: "Jyothy Nair",
+      text: "The classes are very good and the teachers are explaining all the concepts for Our Own POV HIGHLY RECOMMEND THEM !!!!",
+      img_url: "",
+    },
+    {
+      name: "Nisarahmed Nadaf",
+      text: "Had a good experience while taking classes for my younger brother. totally recommended. seen people attacking this institute by taking money from competitive institutes to damage the reputation",
+      img_url: "",
+    },
+    {
+      name: "Shabaz",
+      text: "Friendly environment. Visited here frequently. It is good to see that this institution is also working for the deprived section. Would love to partner with this institute.",
+      img_url: "",
+    },
+    {
+      name: "Learning Zone",
+      text: "Great place for learning.... Wonderful environment understanding teacher, friendly staff and down to earth Director.... Must visit for classes....",
+      img_url: "",
+    },
+  ];
+
+  testimonial_List.forEach((item, i) => {
+    $("#testimonialContainer").append(
+      `  <div class="carousel-item  px-md-5 px-0 ${
+        i == 0 ? "active" : ""
+      }" data-bs-interval="2000">
+    <div>
+      <img class="quote-icon" src="../../assets/icons/quotes.svg" alt="" />
+      <div class="testimonial-cards ">
+        <div class="d-flex align-items-center"> ${item.text}
+        </div>
+      </div>
+      <div class="text-center profile-wrapper ">
+        <img class="user-profile-img shadow" src="../../assets/images/testimonia/testimonial.jpg" alt="" />
+        <h5 class="mt-2"> ${item.name}</h5>
+      </div>
+    </div>
+  </div>`
+    );
+  });
 });

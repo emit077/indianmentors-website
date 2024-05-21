@@ -304,7 +304,7 @@ p {
 
 #feature-testimonial .user-profile-img {
   height: 80px;
-  aspect-ratio: 1/0.9;
+  /* aspect-ratio: 1/0.9; */
   border-radius: 20px;
   border: solid 2px white;
 }
