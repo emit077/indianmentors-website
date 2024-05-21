@@ -214,7 +214,7 @@ $(document).ready(function () {
     },
     {
       name: "Abhishek Toppo",
-      name: "Indian mentors tutors are experienced and friendly. Their way of teaching is very good. I would really suggest others to take classes from Indian Mentors.",
+      text: "Indian mentors tutors are experienced and friendly. Their way of teaching is very good. I would really suggest others to take classes from Indian Mentors.",
       img_url: "",
     },
     {
