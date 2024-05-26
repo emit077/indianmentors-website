@@ -124,19 +124,19 @@ $(document).ready(function () {
     {
       title: "Private Home Tutors",
       subtitle:
-        "Provides personalized academic support to students in the comfort of their own homes,  academic support, personalized attention, and mentorship to students",
+        "In the comfort of your own homes, the program provides students with customised academic support together with mentoring and individualised attention.",
       img_url: "../../assets/images/service/service-1.png",
     },
     {
       title: "Private Online Tutors",
       subtitle:
-        "Provides access to a wide range of tutors from different geographic locations, allowing students to work with experts in various subjects and specialties.",
+        "Students can engage with specialists in a variety of areas and specialties thanks to the availability of teachers from various geographical regions.",
       img_url: "../../assets/images/service/service-2.png",
     },
     {
-      title: "Classroom Tutoring ",
+      title: "Tuition Centre",
       subtitle:
-        "Takes place in a structured learning environment, such as a classroom or educational center, the opportunity to learn from their peers, collaborate on group activities",
+        "Learning in a classroom tuition facility or other controlled setting offers the chance to work in groups and pick up skills from classmates.",
       img_url: "../../assets/images/service/service-3.png",
     },
   ];
@@ -165,26 +165,26 @@ $(document).ready(function () {
       step_no: 1,
       step_color: "#0dccc2",
       title: "Meeting",
-      subtitle: `We require precise details regarding the student's needs. You can either visit our office, or our admission counsellor can arrange a meeting with you, either online or in person, to provide counselling for the student. We will gather all necessary information, including class, subjects, timing, preferred tutor, location, city, demo details, and any specific concerns.`,
+      subtitle: `Connect with our friendly team through a phone call or online form. Share your needs and ask any questions about our courses and services. We'll provide all the information you need to make the best decision for your learning journey. You can also reach out to our team via email or live chat on our website.`,
     },
     {
       step_no: 2,
       step_color: "#CB60FF",
       title: "Registration",
-      subtitle: `After communicating your requirements, the next step is to complete the student registration process by filling out the registration form and submitting the one-time registration fee of Rs. 1000. This fee is non-refundable and non-adjustable, and it grants lifetime access to our services. You can complete this process on our website following the provided instructions.`,
+      subtitle: `Once you've chosen the perfect course, complete the registration process and pay the fees securely online. Our registration process is very simple. Our team will guide you through each step, ensuring a smooth onboarding experience. We offer a variety of payment options for the registration fees to accommodate your preferences.`,
     },
     {
       step_no: 3,
       step_color: "#F34B7E",
       title: "Demo Classes",
-      subtitle: `The tutor will conduct a demo session, either online or in person for one and a half hours. Following the demo session, you will need to confirm whether the tutor is suitable for the student's needs. If the tutor is a good fit, that's wonderful. If not, we will arrange for another tutor promptly.`,
+      subtitle: `Try our free 90-minute demo class online or at our center. If the teacher isn't a fit, no problem—we'll quickly find another who suits your needs. Attending a demo session allows you to get a firsthand experience of our teaching style, curriculum, and the expertise of our teachers.`,
     },
     {
       step_no: 4,
       step_color: "#FCB01D",
       title: "Fee Structure",
       subtitle:
-        "We offer various plans and packages to cater different needs. Once you have selected your tutor, you can choose from our basic, standard, or premium plans and select the number of days per week according to your requirements. You can then begin your classes on a regular basis and access all our services after making an advance fee payment.",
+        "We have different plans to choose from: basic, standard, and premium. After you find the perfect teacher, pick the plan that works best for you and decide how many classes you want each week. Once you pay the fees in advance, you can start your regular classes.",
     },
   ];
 
@@ -209,47 +209,74 @@ $(document).ready(function () {
   testimonial_List = [
     {
       name: "Amitesh Singh",
-      text: "I will suggest every parent to not burden their children at the end of the session for exams. Take classes from them from the very beginning. Their service is up to the mark and we are satisfied with their tutors and their service.",
+      sub_title: "Parent, Bhilai, Chhattisgarh",
+      text: `I would advise all parents not to wait until the end of the term to start preparing their children for exams. Instead, start tutoring them from the beginning. We are pleased with the quality of service provided by the tutors.`,
       img_url: "",
     },
     {
       name: "Abhishek Toppo",
-      text: "Indian mentors tutors are experienced and friendly. Their way of teaching is very good. I would really suggest others to take classes from Indian Mentors.",
+      sub_title: "Parent, Bhilai, Chhattisgarh",
+      text: `Indian mentors and tutors are experienced and friendly. Their teaching style is excellent. I highly recommend others to take classes from Indian Mentors.`,
       img_url: "",
     },
     {
       name: "Bhagya Laxmi",
-      text: "I even can't express my happiness after seeing my daughter's results I almost lost hope in her studies but after I appointed Indian Mentors I saw changes in her academic results which made me believe in her results again now I can highly recommend this institute Thank you Indian Mentors",
+      sub_title: "Parent, Bilaspur, Chhattisgarh",
+      text: "I can't even express my happiness after seeing my daughter's results. I had almost lost hope in her studies, but after enrolling her in Indian Mentors, I saw significant improvements in her academic performance. This has restored my faith in her abilities, and I highly recommend this institute. Thank you, Indian Mentors!",
       img_url: "",
     },
     {
       name: "Anushka Swaroop",
-      text: "Indian Mentors is a good institute we provide the best and most qualified tutors for mentoring the performance of the students it's among the best institutes of Chattisgarh.",
+      sub_title: "Parent, Bhilai, Chhattisgarh",
+      text: "Indian Mentors is an excellent institute that provides highly qualified tutors to mentor students. It is one of the top institutes in Chattisgarh.",
       img_url: "",
     },
     {
       name: "Harsh Soni",
-      text: "Can't express my experience in words. Just wanna say that this place is Awesome. It's been more than one year and I'm still convinced with the amount of dedication and descipline they have.",
+      sub_title: "Tutor, Bhilai, Chhattisgarh",
+      text: "Can't express my experience in words. Just want to say that this place is awesome. It's been more than one year and I'm still convinced of the amount of dedication and discipline they have.",
       img_url: "",
     },
     {
       name: "Jyothy Nair",
-      text: "The classes are very good and the teachers are explaining all the concepts for Our Own POV HIGHLY RECOMMEND THEM !!!!",
+      sub_title: "Parent, Durg, Chhattisgarh",
+      text: "The classes are excellent, and the teachers explain all the concepts from our perspective. I highly recommend them!",
       img_url: "",
     },
     {
-      name: "Nisarahmed Nadaf",
-      text: "Had a good experience while taking classes for my younger brother. totally recommended. seen people attacking this institute by taking money from competitive institutes to damage the reputation",
+      name: "Nisar Ahmed",
+      sub_title: "",
+      text: "Had a great experience teaching classes to my younger brother. Highly recommended. The environment is pleasant, and the team members are cooperative and supportive.",
       img_url: "",
     },
     {
       name: "Shabaz",
+      sub_title: "",
       text: "Friendly environment. Visited here frequently. It is good to see that this institution is also working for the deprived section. Would love to partner with this institute.",
       img_url: "",
     },
     {
       name: "Learning Zone",
-      text: "Great place for learning.... Wonderful environment understanding teacher, friendly staff and down to earth Director.... Must visit for classes....",
+      sub_title: "",
+      text: "Great place for learning. Wonderful environment, understanding teachers, friendly staff, and a down-to-earth director. A must-visit for classes",
+      img_url: "",
+    },
+    {
+      name: "Ruchi Chanda",
+      sub_title: "",
+      text: "One of the best institutes in the Bhilai-Durg region, Indian Mentors, is a renowned brand. I am proud to be a part of this organization, thanks to the pleasant environment and the cooperative and supportive team members.",
+      img_url: "",
+    },
+    {
+      name: "Ashish Sahu",
+      sub_title: "",
+      text: "The teacher is excellent, provides high-quality instruction, and interacts nicely with the children. My child's progress is satisfactory.",
+      img_url: "",
+    },
+    {
+      name: "Nandita Vishwakarma",
+      sub_title: "",
+      text: "Best Institute providing quality education with professional mentors. Great experience with Indian mentors!",
       img_url: "",
     },
   ];
@@ -261,13 +288,14 @@ $(document).ready(function () {
       }" data-bs-interval="2000">
     <div>
       <img class="quote-icon" src="../../assets/icons/quotes.svg" alt="" />
-      <div class="testimonial-cards ">
+      <div class="testimonial-cards  pb-5">
         <div class="d-flex align-items-center"> ${item.text}
         </div>
       </div>
       <div class="text-center profile-wrapper ">
         <img class="user-profile-img shadow" src="../../assets/images/testimonia/testimonial.jpg" alt="" />
-        <h5 class="mt-2"> ${item.name}</h5>
+        <h5 class="mt-2 mb-0"> ${item.name}</h5>
+        <small>${item.sub_title}</small> 
       </div>
     </div>
   </div>`
