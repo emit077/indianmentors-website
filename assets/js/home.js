@@ -10,7 +10,7 @@ $(document).ready(function () {
   window.addEventListener("scroll", (event) => {
     if (!isVisited && isOnScreen(document.getElementById("feature-stats"))) {
       isVisited = true;
-      let data = [20000, 10000, 50];
+      let data = [50000, 100000, 100];
       $(".counting").each(function (i) {
         $(this)
           .prop("Counter", 0)
@@ -22,7 +22,7 @@ $(document).ready(function () {
               duration: 1200,
               easing: "swing",
               step: function (now) {
-                now = Number(Math.ceil(now)).toLocaleString("en");
+                now = Number(Math.ceil(now)).toLocaleString("inr");
                 $(this).text(now);
               },
             }
