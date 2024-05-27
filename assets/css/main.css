@@ -34,7 +34,7 @@ p {
   font-style: normal;
 }
 .font-poppins {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   font-style: normal;
 }
 
@@ -355,4 +355,38 @@ p {
   font-size: 11px;
   color: lightblue;
   opacity: 0.8;
+}
+
+#section-page-title {
+  /* The image used */
+  background-image: url("../images/others/inner-banner.jpg");
+  min-height: 250px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#section-page-title .page-title-wrapper {
+  background-color: rgb(var(--primary),0.7);
+  min-height: 250px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: rgb(var(--white));
+
+  
+}
+
+#section-page-title .shadow-text{
+  position: relative;
+  font-size: 60px;
+  font-weight: bolder;
+  position: absolute;
+  /* top:-30px; */
+  color: rgb(var(--white),0.7);
+  font-family: "poppins";
 }
