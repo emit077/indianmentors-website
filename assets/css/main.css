@@ -390,3 +390,7 @@ p {
   color: rgb(var(--white),0.7);
   font-family: "poppins";
 }
+/* for t&c and other doc  */
+li{
+  padding-left: 10px;
+}
