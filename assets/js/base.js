@@ -5,9 +5,8 @@ $(document).ready(function () {
     $("#loading-screen").fadeOut(1000);
     $(".loading-content").fadeOut(600);
     $(".loader").fadeOut(600);
-  }, 500);
+  }, 2000);
 
-  $("#loading-screen").slideDown(8000);
 
   /* include components */
   let includes = document.getElementsByTagName("include");
