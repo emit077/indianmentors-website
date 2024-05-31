@@ -1,4 +1,14 @@
 $(document).ready(function () {
+
+  // hide the page loader
+  setTimeout(function () {
+    $("#loading-screen").fadeOut(1000);
+    $(".loading-content").fadeOut(600);
+    $(".loader").fadeOut(600);
+  }, 500);
+
+  $("#loading-screen").slideDown(8000);
+
   /* include components */
   let includes = document.getElementsByTagName("include");
   for (var i = 0; i < includes.length; i++) {
@@ -21,11 +31,13 @@ $(document).ready(function () {
     // let currentab = document.getElementsByClassName("nav-link");
     let currentab = document.getElementsByClassName("nav-link");
     for (var i = 0; i < currentab.length; i++) {
-      console.log("currentab[i].text.toLowerCase().includes(currentab=",currentab[i].text.toLowerCase().includes(currentab))  ;
-      if (currentab[i].text.toLowerCase().includes(tab_id)){
+      console.log(
+        "currentab[i].text.toLowerCase().includes(currentab=",
+        currentab[i].text.toLowerCase().includes(currentab)
+      );
+      if (currentab[i].text.toLowerCase().includes(tab_id)) {
         currentab[i].classList.add("active-nav-link");
-      }
-      else currentab[i].classList.remove("active-nav-link");
+      } else currentab[i].classList.remove("active-nav-link");
     }
   }, 150);
 });

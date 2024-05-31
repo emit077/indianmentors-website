@@ -7,6 +7,9 @@
   --white: 255, 255, 255;
   --card-surface: 45, 133, 239;
 }
+body {
+  scroll-behavior: smooth;
+}
 a {
   cursor: pointer !important;
 }
@@ -370,27 +373,37 @@ p {
 }
 
 #section-page-title .page-title-wrapper {
-  background-color: rgb(var(--primary),0.7);
+  background-color: rgb(var(--primary), 0.7);
   min-height: 250px;
   align-items: center;
   position: relative;
   display: flex;
   justify-content: center;
   color: rgb(var(--white));
-
-  
 }
 
-#section-page-title .shadow-text{
+#section-page-title .shadow-text {
   position: relative;
   font-size: 60px;
   font-weight: bolder;
   position: absolute;
   /* top:-30px; */
-  color: rgb(var(--white),0.7);
+  color: rgb(var(--white), 0.7);
   font-family: "poppins";
 }
 /* for t&c and other doc  */
-li{
+li {
   padding-left: 10px;
+}
+
+#loading-screen {
+  height: 100%;
+  width: 100%;
+  background-color: #0824a9;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
