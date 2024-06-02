@@ -8,6 +8,8 @@ $(document).ready(function () {
   }, 2000);
 
 
+
+
   /* include components */
   let includes = document.getElementsByTagName("include");
   for (var i = 0; i < includes.length; i++) {
@@ -40,3 +42,7 @@ $(document).ready(function () {
     }
   }, 150);
 });
+
+function openDialog(){
+  $("#loading-screen").fadeOut(1000);
+}

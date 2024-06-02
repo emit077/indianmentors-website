@@ -5,6 +5,8 @@ $(document).ready(function () {
     touch: false,
   });
 
+
+
   /* counter effect*/
   let isVisited = false;
   window.addEventListener("scroll", (event) => {

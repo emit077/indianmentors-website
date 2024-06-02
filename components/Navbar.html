@@ -74,9 +74,9 @@
     <!-- moibile bar -->
     <header id="app-header" class="sticky-top app-padding bg-primary p-1 pe-2 text-end  d-md-none">
         <img src="../../assets/images/logo/full-logo.svg" alt="" width="200px" class="float-start mt-2 ms-2" />
-        <a class="text-decoration-none" data-bs-toggle="modal" href="#mobileMenuModel" role="button">
-            <span class="mdi mdi-menu text-white" style="font-size: 35px;"></span>
-        </a>
+        <!-- <a class="text-decoration-none" data-bs-toggle="modal" href="#mobileMenuModel" role="button"> -->
+            <span id="menu_btn" class="mdi mdi-menu text-white" style="font-size: 35px;" onclick="openDialog()"></span>
+        <!-- </a> -->
     </header>
     <div class="modal " id="mobileMenuModel" aria-hidden="true" aria-labelledby="mobileMenuModelLabel" tabindex="-1">
         <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-top mt-0">
