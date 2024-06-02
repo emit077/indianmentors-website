@@ -5,7 +5,7 @@ $(document).ready(function () {
     $("#loading-screen").fadeOut(1000);
     $(".loading-content").fadeOut(600);
     $(".loader").fadeOut(600);
-  }, 2000);
+  }, 1000);
 
 
 
