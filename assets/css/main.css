@@ -24,6 +24,11 @@ p {
   justify-content: center;
 }
 
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -304,7 +309,6 @@ p {
   position: relative;
   top: -40px;
 }
-
 #feature-testimonial .user-profile-img {
   height: 80px;
   /* aspect-ratio: 1/0.9; */
@@ -312,6 +316,12 @@ p {
   border: solid 2px white;
 }
 
+#out-team .user-profile-img {
+  height: 120px;
+  /* aspect-ratio: 1/0.9; */
+  border-radius: 50%;
+  border: solid 2px white;
+}
 /* Footer */
 
 #app-footer {
