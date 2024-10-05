@@ -1,192 +1,280 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="../assets/js/color-modes.js"></script>
 
-<head>
-  <script src="../assets/js/color-modes.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.122.0" />
+    <title>Contact Us | IndianMentors</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/images/logo/favicon.png"
+    />
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-  <meta name="generator" content="Hugo 0.122.0" />
-  <title>Contact Us | IndianMentors</title>
-  <link rel="icon" type="image/x-icon" href="../../assets/images/logo/favicon.png">
+    <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="../../assets/css/main.css" rel="stylesheet" />
+    <link href="../../assets/css/about.css" rel="stylesheet" />
+    <link href="../../assets/css/animation.css" rel="stylesheet" />
+    <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
+    <style>
+      #google-maps-canvas img {
+        max-height: none;
+        max-width: none !important;
+        background: none !important;
+      }
+    </style>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5DZQ8K6P");
+    </script>
+    <!-- End Google Tag Manager -->
 
-  <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
-  <link href="../../assets/css/main.css" rel="stylesheet" />
-  <link href="../../assets/css/about.css" rel="stylesheet" />
-  <link href="../../assets/css/animation.css" rel="stylesheet" />
-  <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
-  <style>
-    #google-maps-canvas img {
-      max-height: none;
-      max-width: none !important;
-      background: none !important;
-    }
-  </style>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5DZQ8K6P');</script>
-  <!-- End Google Tag Manager -->
-</head>
+    <!-- New - Google tag (gtag.js) 5 Oct 2024 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-16712187723"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZQ8K6P" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- loader -->
-  <section id="loading-screen">
-    <div class="d-block w-100 ">
-      <center>
-        <div class="loader mb-5"></div>
-        <small class="text-white loading-content">please wait...</small>
-      </center>
-    </div>
-  </section>
-  <!-- header -->
-  <include src="../../components/Navbar.html"></include>
-  <!-- Header End -->
-  <!-- page title -->
-  <div id="section-page-title">
-    <div class="page-title-wrapper">
-      <p class="shadow-text">Contact us</p>
-    </div>
-  </div>
-  <!-- page title end -->
+      gtag("config", "AW-16712187723");
+    </script>
+    <!-- new tag end  -->
+  </head>
 
-  <h1 class="font-poppins fw-bold text-center my-5 text-primary" style="z-index: 10;">Where to find Us </h1>
-
-  <!-- our map -->
-  <div>
-    <section class="app-padding py-5">
-      <div class="row mt-5 pb-3">
-        <div class="col-sm-6 col-md-6 text-md-start text-sm-start">
-          <h4>32A, Near Avantibai Chowk, Beside Dubey Dairy,<br>
-            Junwani Road Kohka, Bhilai 490023, <br> Chhattisgarh India.</h4>
-        </div>
-        <div class="col-sm-6 col-md-6 text-md-end  text-sm-start">
-          <h5> hello@indianmentors.in</h5>
-          <h5> +91 7415363564</h5>
-          <h5> +91 7869027983</h5>
-        </div>
-      </div>
-      <div>
-        <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:400px;">
-          <div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
-              style="height:100%;width:100%;border:0;" frameborder="0"
-              src="https://www.google.com/maps/embed/v1/place?q=INDIAN+MENTORS,+Junwani+Road,+beside+Dubey+Dairy,+Kohka,+Bhilai,+Chhattisgarh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-          </div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="authmaps-data"></a>
-
-        </div>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5DZQ8K6P"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- loader -->
+    <section id="loading-screen">
+      <div class="d-block w-100">
+        <center>
+          <div class="loader mb-5"></div>
+          <small class="text-white loading-content">please wait...</small>
+        </center>
       </div>
     </section>
-    <!-- address -->
-    <section class="py-5 app-padding" id="contact-address">
-      <div class="section-title-veriant-2 mt-5">
-        <span class="card-subtitle ms-2" style="--color: var(--white);">Other Locations</span>
-        <h2 style="--color: var(--white);">We are also present here</h2>
+    <!-- header -->
+    <include src="../../components/Navbar.html"></include>
+    <!-- Header End -->
+    <!-- page title -->
+    <div id="section-page-title">
+      <div class="page-title-wrapper">
+        <p class="shadow-text">Contact us</p>
       </div>
-      <div class="row justify-content-center my-5">
-        <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Bhilai (Corporate Office)</h5>
-            <p class="text-center text-white text-whit mt-4">
-              Office No 7-9, 5th Floor, Surya Treasure Island Mall, South Office Block, Junwani Road, Surya Vihar,
-              Bhilai, Durg, Chhattisgarh 490020
-              <br>
-              <br>
-              hello@indianmentors.in <br> +91 7389563564
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center px-4  mb-4 h-100">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Bhilai (Tuition Center)</h5>
-            <p class="text-center text-white text-whit mt-4">
-              Beside Mahaveer Tiles, Near Cafe Biryan,<br> Junwani Road, Kohka, Bhilai, Chhattisgarh, 490023<br>
-              <br>
-              hello@indianmentors.in <br> +91 91791 84304
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Raipur</h5>
-            <p class="text-center text-white text-whit mt-4">
-              Office No 55, 3rd Floor, Office Block, Offizo Magneto The Mall, Labhandih, Raipur, Chhattisgarh, 492006
-              <br>
-              <br>
-              hello@indianmentors.in <br> +91 7389563564
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center px-4  mb-4">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Bilaspur</h5>
-            <p class="text-center text-white text-whit mt-4">
-              Office No 57, 3rd Floor, Palika Bazar, Rama Magneto Mall, Talapara, Bilaspur, Chhattisgarh, 495004
-              <br>
-              <br>
-              hello@indianmentors.in <br> +91 7415363564
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Nagpur</h5>
-            <p class="text-center text-white text-whit mt-4">
-              H No 71669, M.B. Town, Zingabai Takli, Nagpur, Maharashtra 440030
-              <br>
-              <br>
-              hello@indianmentors.in <br> +91 7389563564
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Bangalore</h5>
-            <p class="text-center text-white text-whit mt-4">
-              H-4, 1st Cross Road, Eshwara Nagar, Banashankari, Bengaluru, Karnataka 560070
-              <br>
-              <br>
-              hello@indianmentors.in <br> +91 7389563564
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
-          <div class="card p-4 h-100 rounded-4">
-            <h5 class="fw-bold text-white title font-roboto-slab">Hyderabad</h5>
-            <p class="text-center text-white text-whit mt-4">
-              Tooba Tower, SA Colony, 7 Tombs Road, Tolichowki, Hyderabad, Telangana 500008
-              <br>
-              <br>
-              hello@indianmentors.in <br> +91 7389563564
-            </p>
-          </div>
-        </div>
-      </div>
+    </div>
+    <!-- page title end -->
 
-    </section>
-  </div>
+    <h1
+      class="font-poppins fw-bold text-center my-5 text-primary"
+      style="z-index: 10"
+    >
+      Where to find Us
+    </h1>
 
-  <!-- end map -->
+    <!-- our map -->
+    <div>
+      <section class="app-padding py-5">
+        <div class="row mt-5 pb-3">
+          <div class="col-sm-6 col-md-6 text-md-start text-sm-start">
+            <h4>
+              32A, Near Avantibai Chowk, Beside Dubey Dairy,<br />
+              Junwani Road Kohka, Bhilai 490023, <br />
+              Chhattisgarh India.
+            </h4>
+          </div>
+          <div class="col-sm-6 col-md-6 text-md-end text-sm-start">
+            <h5>hello@indianmentors.in</h5>
+            <h5>+91 7415363564</h5>
+            <h5>+91 7869027983</h5>
+          </div>
+        </div>
+        <div>
+          <div
+            style="
+              overflow: hidden;
+              resize: none;
+              max-width: 100%;
+              width: 100%;
+              height: 400px;
+            "
+          >
+            <div
+              id="google-maps-canvas"
+              style="height: 100%; width: 100%; max-width: 100%"
+            >
+              <iframe
+                style="height: 100%; width: 100%; border: 0"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=INDIAN+MENTORS,+Junwani+Road,+beside+Dubey+Dairy,+Kohka,+Bhilai,+Chhattisgarh,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a
+              class="embedded-map-code"
+              href="https://www.bootstrapskins.com/themes"
+              id="authmaps-data"
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- address -->
+      <section class="py-5 app-padding" id="contact-address">
+        <div class="section-title-veriant-2 mt-5">
+          <span class="card-subtitle ms-2" style="--color: var(--white)"
+            >Other Locations</span
+          >
+          <h2 style="--color: var(--white)">We are also present here</h2>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">
+                Bhilai (Corporate Office)
+              </h5>
+              <p class="text-center text-white text-whit mt-4">
+                Office No 7-9, 5th Floor, Surya Treasure Island Mall, South
+                Office Block, Junwani Road, Surya Vihar, Bhilai, Durg,
+                Chhattisgarh 490020
+                <br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 7389563564
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4 h-100">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">
+                Bhilai (Tuition Center)
+              </h5>
+              <p class="text-center text-white text-whit mt-4">
+                Beside Mahaveer Tiles, Near Cafe Biryan,<br />
+                Junwani Road, Kohka, Bhilai, Chhattisgarh, 490023<br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 91791 84304
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">Raipur</h5>
+              <p class="text-center text-white text-whit mt-4">
+                Office No 55, 3rd Floor, Office Block, Offizo Magneto The Mall,
+                Labhandih, Raipur, Chhattisgarh, 492006
+                <br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 7389563564
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">
+                Bilaspur
+              </h5>
+              <p class="text-center text-white text-whit mt-4">
+                Office No 57, 3rd Floor, Palika Bazar, Rama Magneto Mall,
+                Talapara, Bilaspur, Chhattisgarh, 495004
+                <br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 7415363564
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">Nagpur</h5>
+              <p class="text-center text-white text-whit mt-4">
+                H No 71669, M.B. Town, Zingabai Takli, Nagpur, Maharashtra
+                440030
+                <br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 7389563564
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">
+                Bangalore
+              </h5>
+              <p class="text-center text-white text-whit mt-4">
+                H-4, 1st Cross Road, Eshwara Nagar, Banashankari, Bengaluru,
+                Karnataka 560070
+                <br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 7389563564
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center px-4 mb-4">
+            <div class="card p-4 h-100 rounded-4">
+              <h5 class="fw-bold text-white title font-roboto-slab">
+                Hyderabad
+              </h5>
+              <p class="text-center text-white text-whit mt-4">
+                Tooba Tower, SA Colony, 7 Tombs Road, Tolichowki, Hyderabad,
+                Telangana 500008
+                <br />
+                <br />
+                hello@indianmentors.in <br />
+                +91 7389563564
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
-  <!-- footer start -->
-  <include src="../../components/Footer.html"></include>
-  <!-- Footer end -->
+    <!-- end map -->
 
-  <!-- external JS -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="../../assets/js/base.js"></script>
-  <script src="../../plugins/bootstrap/bootstrap.js"></script>
-</body>
+    <!-- footer start -->
+    <include src="../../components/Footer.html"></include>
+    <!-- Footer end -->
 
+    <!-- external JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../assets/js/base.js"></script>
+    <script src="../../plugins/bootstrap/bootstrap.js"></script>
+  </body>
 </html>

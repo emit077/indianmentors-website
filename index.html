@@ -1,181 +1,257 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="../assets/js/color-modes.js"></script>
 
-<head>
-  <script src="../assets/js/color-modes.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.122.0" />
+    <title>IndianMentors</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/images/logo/favicon.png"
+    />
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-  <meta name="generator" content="Hugo 0.122.0" />
-  <title>IndianMentors</title>
-  <link rel="icon" type="image/x-icon" href="../../assets/images/logo/favicon.png">
+    <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="../../assets/css/main.css" rel="stylesheet" />
+    <link href="../../assets/css/main-mobile.css" rel="stylesheet" />
+    <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/css/animation.css" />
 
-  <link href="../../plugins/bootstrap/bootstrap.css" rel="stylesheet" />
-  <link href="../../assets/css/main.css" rel="stylesheet" />
-  <link href="../../assets/css/main-mobile.css" rel="stylesheet" />
-  <link href="../../plugins/mdi/mdi-icons.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../../assets/css/animation.css">
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5DZQ8K6P");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- New - Google tag (gtag.js) 5 Oct 2024 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-16712187723"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5DZQ8K6P');</script>
-  <!-- End Google Tag Manager -->
-</head>
+      gtag("config", "AW-16712187723");
+    </script>
+    <!-- new tag end  -->
+  </head>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DZQ8K6P" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5DZQ8K6P"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-
-  <!-- loader -->
-  <section id="loading-screen">
-    <div class="d-block w-100 ">
-      <center>
-        <div class="loader mb-5"></div>
-        <small class="text-white loading-content">please wait...</small>
-      </center>
-    </div>
-  </section>
-  <!-- header -->
-  <include src="../../components/Navbar.html"></include>
-  <!-- Header End -->
-
-  <!-- hero section start -->
-  <section id="hero" class="app-padding pb-5 pb-md-0">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 mt-auto mb-auto order-last">
-        <h1 class="hero-title fw-bold">
-          The personal <br /><span>touch</span> for your <br />
-          <span>Academic success</span>
-        </h1>
-        <h5 class="my-3">Education excellence at your doorstep.</h5>
-        <h5 class="my-3">Personalised Home Tuition and Online Learning Platform </h5>
-
-        <p class="mb-2">We're Indian Mentors, and we're here to help you do your best in school and beyond. We know that
-          every
-          student is unique, and that's why we work closely with you and your parents to create a learning plan that
-          fits your needs. <br><br>
-
-          Our team is made up of top-notch teachers who are experts in their fields. They use the latest teaching
-          methods and technology to make learning fun and engaging. Plus, they're always ready to lend a helping hand
-          whenever you need it. <br><br>
-          <!-- At Indian Mentors, we believe that when students, parents, and teachers work together, amazing things can happen. That's why we focus on building strong partnerships with everyone involved in your education.br -->
-        </p>
-        <a href="https://app.indianmentors.in/student/registration" target="_blank" class="primary-action-btn mt-5"
-          style="--padding: 14px 35px;">
-          Sign Up
-        </a>
+    <!-- loader -->
+    <section id="loading-screen">
+      <div class="d-block w-100">
+        <center>
+          <div class="loader mb-5"></div>
+          <small class="text-white loading-content">please wait...</small>
+        </center>
       </div>
-      <div class="col-md-6 col-sm-12 img-wrapper order-first">
-        <img src="../../assets/images/others/hero.png" alt="" width="100%" />
+    </section>
+    <!-- header -->
+    <include src="../../components/Navbar.html"></include>
+    <!-- Header End -->
+
+    <!-- hero section start -->
+    <section id="hero" class="app-padding pb-5 pb-md-0">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mt-auto mb-auto order-last">
+          <h1 class="hero-title fw-bold">
+            The personal <br /><span>touch</span> for your <br />
+            <span>Academic success</span>
+          </h1>
+          <h5 class="my-3">Education excellence at your doorstep.</h5>
+          <h5 class="my-3">
+            Personalised Home Tuition and Online Learning Platform
+          </h5>
+
+          <p class="mb-2">
+            We're Indian Mentors, and we're here to help you do your best in
+            school and beyond. We know that every student is unique, and that's
+            why we work closely with you and your parents to create a learning
+            plan that fits your needs. <br /><br />
+
+            Our team is made up of top-notch teachers who are experts in their
+            fields. They use the latest teaching methods and technology to make
+            learning fun and engaging. Plus, they're always ready to lend a
+            helping hand whenever you need it. <br /><br />
+            <!-- At Indian Mentors, we believe that when students, parents, and teachers work together, amazing things can happen. That's why we focus on building strong partnerships with everyone involved in your education.br -->
+          </p>
+          <a
+            href="https://app.indianmentors.in/student/registration"
+            target="_blank"
+            class="primary-action-btn mt-5"
+            style="--padding: 14px 35px"
+          >
+            Sign Up
+          </a>
+        </div>
+        <div class="col-md-6 col-sm-12 img-wrapper order-first">
+          <img src="../../assets/images/others/hero.png" alt="" width="100%" />
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- Hero section end -->
+    </section>
+    <!-- Hero section end -->
 
-  <!-- stats section start -->
-  <include src="../../components/home/stats.html"></include>
-  <!-- stats section end -->
+    <!-- stats section start -->
+    <include src="../../components/home/stats.html"></include>
+    <!-- stats section end -->
 
-  <!-- service section start -->
-  <section id="feature-services" class="" style="margin-bottom: -150px;">
-    <div class="app-padding">
-      <div class="section-title text-center mb-5">
-        <span class="card-subtitle" style="--color: var(--gray);">Our Services</span>
-        <h2>What we do?</h2>
+    <!-- service section start -->
+    <section id="feature-services" class="" style="margin-bottom: -150px">
+      <div class="app-padding">
+        <div class="section-title text-center mb-5">
+          <span class="card-subtitle" style="--color: var(--gray)"
+            >Our Services</span
+          >
+          <h2>What we do?</h2>
+        </div>
+        <div class="row" id="serviceCardContainer"></div>
       </div>
-      <div class="row" id="serviceCardContainer"></div>
-    </div>
-  </section>
-  <!-- service section end -->
+    </section>
+    <!-- service section end -->
 
-  <!--how do we do start -->
-  <section id="feature-steps" class="py-5" style="position: relative; top: 00px;">
-    <div style="height: 200px;">
-      <img class="move-circle-grp" src="../../assets/images/others/circles-grp.svg" alt="" />
-    </div>
-    <div class="app-padding">
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-4">
-          <div class="section-title-veriant-2 mb-5">
-            <span class="card-subtitle ms-2" style="--color: var(--white);">Steps to follow</span>
-            <h2 style="--color: var(--white);">How do we do?</h2>
-            <p class="text-white">Indian Mentors typically operate by following these steps:</p>
+    <!--how do we do start -->
+    <section
+      id="feature-steps"
+      class="py-5"
+      style="position: relative; top: 00px"
+    >
+      <div style="height: 200px">
+        <img
+          class="move-circle-grp"
+          src="../../assets/images/others/circles-grp.svg"
+          alt=""
+        />
+      </div>
+      <div class="app-padding">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-4">
+            <div class="section-title-veriant-2 mb-5">
+              <span class="card-subtitle ms-2" style="--color: var(--white)"
+                >Steps to follow</span
+              >
+              <h2 style="--color: var(--white)">How do we do?</h2>
+              <p class="text-white">
+                Indian Mentors typically operate by following these steps:
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <div
+              class="row justify-content-center"
+              id="stepItemContainer"
+            ></div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-8">
-          <div class="row justify-content-center" id="stepItemContainer">
+      </div>
+    </section>
+    <!-- how do we do end -->
 
-          </div>
+    <!--cources start -->
+    <section id="feature-programs" class="py-5">
+      <div class="app-padding">
+        <div class="section-title text-center mb-5">
+          <span class="card-subtitle" style="--color: var(--gray)"
+            >Programs</span
+          >
+          <h2>Courses we offer</h2>
+        </div>
+
+        <div
+          class="row justify-content-center"
+          id="programsCardContainer"
+        ></div>
+      </div>
+    </section>
+    <!-- how do we do end -->
+
+    <!--Testimonial start -->
+    <section id="feature-testimonial" class="py-5">
+      <div class="app-padding">
+        <div class="section-title text-center mb-5">
+          <span class="card-subtitle" style="--color: var(--gray)"
+            >Testimonials</span
+          >
+          <h2>What People Are Saying About Us?</h2>
+        </div>
+        <div
+          id="testimonialCarousel"
+          class="carousel carousel-dark slide"
+          data-bs-ride="true"
+        >
+          <button
+            class="carousel-control-prev --carasol-btn d-none d-md-block"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next --carasol-btn d-none d-md-block"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carousel-inner" id="testimonialContainer"></div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- how do we do end -->
+    </section>
+    <!-- Testimonial end -->
 
-  <!--cources start -->
-  <section id="feature-programs" class="py-5">
-    <div class="app-padding">
-      <div class="section-title text-center mb-5">
-        <span class="card-subtitle" style="--color: var(--gray);">Programs</span>
-        <h2>Courses we offer</h2>
-      </div>
+    <!-- Tutor registration start -->
+    <include src="../../components/home/TutorRegistration.html"></include>
+    <!--  Tutor registration end -->
 
-      <div class="row justify-content-center" id="programsCardContainer"></div>
-    </div>
-  </section>
-  <!-- how do we do end -->
+    <!-- footer start -->
+    <include src="../../components/Footer.html"></include>
+    <!-- Footer end -->
 
-  <!--Testimonial start -->
-  <section id="feature-testimonial" class="py-5">
-    <div class="app-padding">
-      <div class="section-title text-center mb-5">
-        <span class="card-subtitle" style="--color: var(--gray);">Testimonials</span>
-        <h2>What People Are Saying About Us?</h2>
-      </div>
-      <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="true">
-        <button class="carousel-control-prev --carasol-btn d-none d-md-block" type="button"
-          data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next --carasol-btn d-none d-md-block" type="button"
-          data-bs-target="#testimonialCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-        <div class="carousel-inner" id="testimonialContainer">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Testimonial end -->
-
-  <!-- Tutor registration start -->
-  <include src="../../components/home/TutorRegistration.html"></include>
-  <!--  Tutor registration end -->
-
-  <!-- footer start -->
-  <include src="../../components/Footer.html"></include>
-  <!-- Footer end -->
-
-  <!-- external JS -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="../../assets/js/base.js"></script>
-  <script src="../../assets/js/home.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
-  <script src="../../plugins/bootstrap/bootstrap.js"></script>
-</body>
-
+    <!-- external JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../assets/js/base.js"></script>
+    <script src="../../assets/js/home.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> -->
+    <script src="../../plugins/bootstrap/bootstrap.js"></script>
+  </body>
 </html>
